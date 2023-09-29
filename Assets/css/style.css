@@ -1,0 +1,107 @@
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  background-image: url("../Images/mybackground.png");
+ 
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: right;
+}
+
+h1{
+  float: left;
+  
+}
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  text-decoration: underline;
+}
+
+nav a {
+  text-decoration: none;
+  color: yellowgreen;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px;
+  color: black;
+  text-decoration-color: aqua;
+}
+
+#about {
+  border: 5px solid;
+ 
+  width: 300px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  background-color: white;
+  color: purple;
+}
+#work {
+  margin-bottom: 40px;
+  border: 5px solid;
+  width: 500px;
+  background-color: white;
+  color: purple;
+  
+}
+
+#work img {
+  max-width: 100%;
+}
+
+#contact {
+  border: 5px solid;
+  background-color: white;
+  color: purple;
+  justify-content: space-between;
+  padding: 20px;
+  
+ 
+}
+#contact p a{
+  margin: 75px;
+  color: black;
+  
+
+}
+#resume {
+  border: 5px solid;
+  width: 250px;
+  background-color: white;
+  color: purple;
+  margin-right: 25px;
+}
+
+p{
+  color:black
+}
+
+footer p{
+  background-color: #333;
+  color: yellowgreen;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
